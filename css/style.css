@@ -267,19 +267,3 @@ button:active {
 
 
 /* scroll uchun */
-
-.movie-cards,
-.all::-webkit-scrollbar {
-    width: 1em;
-}
-
-.movie-cards,
-.all::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.movie-cards,
-.all::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-}
