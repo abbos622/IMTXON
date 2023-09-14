@@ -47,7 +47,7 @@ function renderMovie(movie) {
         div.setAttribute("data-id", element.id)
         div.className = "movie__card"
         div.innerHTML = `
-        <a href="./pages/singleMovie.html?productId=${element.id}">
+        <a href="./singleMovie.html?productId=${element.id}">
             <img class="movie__card-img" src="https://image.tmdb.org/t/p/original${element.poster_path}" alt="${element.original_name}">
         </a>
         `
@@ -103,7 +103,7 @@ function Const(Data) {
         const divEl = document.createElement("div")
         divEl.className = "row__card";
         divEl.innerHTML = `
-            <a href="./pages/singleMovie.html?productId=${rowImg.id}">
+            <a href="./singleMovie.html?productId=${rowImg.id}">
                 <img class="row__img" src="https://image.tmdb.org/t/p/original${rowImg.poster_path}" alt="${rowImg.original_title}">
             </a>
             `
